@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>光模块计算器 - Lily's Tool Kits</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/optical.css">
+</head>
+<body>
+    <div class="container">
+        <div class="title">光模块计算器</div>
+        
+        <div class="section">
+            <div class="section-title">DDM 参数转换</div>
+            
+            <div class="input-group">
+                <div class="param-item">
+                    <span class="label">温度 (℃)</span>
+                    <input class="input" type="number" id="temperature" placeholder="输入温度"/>
+                    <input class="hex-input" type="text" id="tempHex" placeholder="寄存器值"/>
+                    <button class="convert-btn" onclick="convertTemp()">转换</button>
+                </div>
+
+                <div class="param-item">
+                    <span class="label">电压 (V)</span>
+                    <input class="input" type="number" id="voltage" placeholder="输入电压"/>
+                    <input class="hex-input" type="text" id="voltHex" placeholder="寄存器值"/>
+                    <button class="convert-btn" onclick="convertVolt()">转换</button>
+                </div>
+
+                <div class="param-item">
+                    <span class="label">偏置电流 (mA)</span>
+                    <input class="input" type="number" id="current" placeholder="输入电流"/>
+                    <input class="hex-input" type="text" id="currentHex" placeholder="寄存器值"/>
+                    <button class="convert-btn" onclick="convertCurrent()">转换</button>
+                </div>
+
+                <div class="param-item">
+                    <span class="label">光功率 (dBm)</span>
+                    <input class="input" type="number" id="power" placeholder="输入功率"/>
+                    <input class="hex-input" type="text" id="powerHex" placeholder="寄存器值"/>
+                    <button class="convert-btn" onclick="convertPower()">转换</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">BER/SNR 转换</div>
+            
+            <div class="input-group">
+                <div class="param-item">
+                    <span class="label">误码率 (BER)</span>
+                    <input class="input" type="text" id="ber" placeholder="如: 1.0e-12"/>
+                    <input class="hex-input" type="text" id="berHex" placeholder="寄存器值"/>
+                    <button class="convert-btn" onclick="convertBer()">转换</button>
+                </div>
+
+                <div class="param-item">
+                    <span class="label">信噪比 (SNR)</span>
+                    <input class="input" type="number" id="snr" placeholder="输入SNR值(dB)"/>
+                    <input class="hex-input" type="text" id="snrHex" placeholder="寄存器值"/>
+                    <button class="convert-btn" onclick="convertSnr()">转换</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">光功率单位转换</div>
+            <div class="input-group">
+                <div class="param-item">
+                    <span class="label">毫瓦 (mW)</span>
+                    <input class="input" type="number" id="mw" placeholder="输入mW值"/>
+                    <input class="input" type="number" id="dbm" placeholder="输入dBm值"/>
+                    <button class="convert-btn" onclick="convertPowerUnit()">转换</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <div class="section-title">可靠性单位转换</div>
+            <div class="input-group">
+                <div class="param-item">
+                    <span class="label">FIT值</span>
+                    <input class="input" type="number" id="fit" placeholder="输入FIT值"/>
+                    <input class="input" type="number" id="ppm" placeholder="输入PPM值"/>
+                    <button class="convert-btn" onclick="convertReliability()">转换</button>
+                </div>
+            </div>
+        </div>
+
+        <button class="clear-btn" onclick="clearAll()">清空</button>
+
+        <div class="copyright">
+            <p>Copyright © 2023 Lily's Tool Kits</p>
+        </div>
+    </div>
+
+    <script src="js/optical.js"></script>
+</body>
+</html>

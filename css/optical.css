@@ -1,0 +1,148 @@
+.container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.title {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.section {
+  margin-bottom: 20px;
+  background: #fff;
+  border-radius: 6px;
+  padding: 10px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section-title {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
+
+.toast {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  padding: 12px 24px;
+  border-radius: 4px;
+  z-index: 1000;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.toast.show {
+  opacity: 1;
+}
+
+.input-group {
+  width: 100%;
+}
+
+.param-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  flex-wrap: wrap;
+}
+
+.label {
+  width: 90px;
+  font-size: 14px;
+  color: #333;
+}
+
+.input {
+  width: 100px;
+  height: 30px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 0 10px;
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.hex-input {
+  width: 70px;
+  height: 30px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  padding: 0 10px;
+  margin-right: 10px;
+  font-size: 14px;
+  background: #f5f5f5;
+}
+
+.convert-btn {
+  width: 60px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 13px;
+  padding: 0;
+  background: #007AFF;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.clear-btn {
+  width: 100px;
+  height: 40px;
+  line-height: 40px;
+  background: #FF3B30;
+  color: white;
+  font-size: 14px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.convert-btn:hover,
+.clear-btn:hover {
+  opacity: 0.9;
+}
+
+.convert-btn:active,
+.clear-btn:active {
+  opacity: 0.8;
+}
+
+/* 响应式布局 */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+  
+  .param-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .label {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  
+  .input,
+  .hex-input {
+    margin-bottom: 5px;
+  }
+  
+  .convert-btn {
+    margin-left: auto;
+  }
+}

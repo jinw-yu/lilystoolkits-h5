@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hex/ASCII转换器 - LilysToolKits</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/hexascii.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Hex/ASCII转换器</h1>
+            <a href="index.html" class="back-link">返回首页</a>
+        </div>
+
+        <div class="converter-container">
+            <div class="input-area">
+                <div class="input-title">ASCII文本</div>
+                <textarea id="asciiInput" class="input-box" placeholder="请输入ASCII文本"></textarea>
+                <div class="btn-group">
+                    <button id="asciiToHexBtn" class="convert-btn">转换为Hex</button>
+                    <button id="clearAsciiBtn" class="clear-btn">清空</button>
+                </div>
+            </div>
+
+            <div class="input-area">
+                <div class="input-title">Hex文本</div>
+                <textarea id="hexInput" class="input-box" placeholder="请输入Hex文本（空格分隔）"></textarea>
+                <div class="btn-group">
+                    <button id="hexToAsciiBtn" class="convert-btn">转换为ASCII</button>
+                    <button id="clearHexBtn" class="clear-btn">清空</button>
+                </div>
+            </div>
+
+            <div class="tips">
+                <p>提示：</p>
+                <p>- ASCII文本将被转换为对应的十六进制值</p>
+                <p>- Hex文本需要用空格分隔，如：48 65 6C 6C 6F</p>
+                <p>- 支持大小写十六进制输入</p>
+            </div>
+        </div>
+
+        <div class="copyright">
+            <p>Copyright © 2023-2024 Lily's Tool Kits</p>
+            <p>All Rights Reserved.</p>
+        </div>
+    </div>
+
+    <script src="js/hexascii.js"></script>
+</body>
+</html>

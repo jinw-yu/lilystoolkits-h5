@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>进制转换器 - LilysToolKits</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/converter.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>进制转换器</h1>
+            <a href="index.html" class="back-link">返回首页</a>
+        </div>
+        
+        <div class="converter-container">
+            <div class="btn-group">
+                <button class="btn btn-active" data-base="10">十进制</button>
+                <button class="btn" data-base="16">十六进制</button>
+                <button class="btn" data-base="2">二进制</button>
+            </div>
+            
+            <div class="input-container">
+                <input type="text" id="inputValue" class="input-box" placeholder="请输入数值">
+            </div>
+            
+            <div class="result-group">
+                <div class="result-item">
+                    <div class="result-label">十进制:</div>
+                    <div class="result-value" id="decimalValue">
+                        <span class="result-value-placeholder">待输入</span>
+                    </div>
+                </div>
+                
+                <div class="result-item">
+                    <div class="result-label">十六进制:</div>
+                    <div class="result-value" id="hexValue">
+                        <span class="result-value-placeholder">待输入</span>
+                    </div>
+                </div>
+                
+                <div class="result-item">
+                    <div class="result-label">二进制:</div>
+                    <div class="result-value" id="binaryValue">
+                        <span class="result-value-placeholder">待输入</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="keypad-container">
+                <div class="keypad-title">数字键盘</div>
+                
+                <div class="keypad-row">
+                    <button class="keypad-btn" data-value="7">7</button>
+                    <button class="keypad-btn" data-value="8">8</button>
+                    <button class="keypad-btn" data-value="9">9</button>
+                    <button class="keypad-btn keypad-btn-del" id="deleteBtn">DEL</button>
+                </div>
+                
+                <div class="keypad-row">
+                    <button class="keypad-btn" data-value="4">4</button>
+                    <button class="keypad-btn" data-value="5">5</button>
+                    <button class="keypad-btn" data-value="6">6</button>
+                    <button class="keypad-btn keypad-btn-clear" id="clearBtn">CLR</button>
+                </div>
+                
+                <div class="keypad-row">
+                    <button class="keypad-btn" data-value="1">1</button>
+                    <button class="keypad-btn" data-value="2">2</button>
+                    <button class="keypad-btn" data-value="3">3</button>
+                    <button class="keypad-btn" data-value="A">A</button>
+                </div>
+                
+                <div class="keypad-row">
+                    <button class="keypad-btn" data-value="0">0</button>
+                    <button class="keypad-btn" data-value="B">B</button>
+                    <button class="keypad-btn" data-value="C">C</button>
+                    <button class="keypad-btn" data-value="D">D</button>
+                </div>
+                
+                <div class="keypad-row">
+                    <button class="keypad-btn" data-value="E">E</button>
+                    <button class="keypad-btn" data-value="F">F</button>
+                    <button class="keypad-btn keypad-btn-space"></button>
+                    <button class="keypad-btn keypad-btn-space"></button>
+                </div>
+            </div>
+            
+            <div class="tips">
+                <p>提示：</p>
+                <p>- 十进制：输入0-9的数字</p>
+                <p>- 十六进制：输入0-9和A-F(不区分大小写)</p>
+                <p>- 二进制：只能输入0和1</p>
+                <p>- 支持大数值转换(最大2^53-1)</p>
+                <p>- 二进制结果每4位一组显示</p>
+            </div>
+        </div>
+        
+        <div class="copyright">
+            <p>Copyright © 2023-2024 Lily's Tool Kits</p>
+            <p>All Rights Reserved.</p>
+        </div>
+    </div>
+    
+    <script src="js/converter.js"></script>
+</body>
+</html>
