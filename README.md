@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![LilysToolKits Logo](https://img.shields.io/badge/LilysToolKits-v0.0.3-blue.svg)
+![LilysToolKits Logo](https://img.shields.io/badge/LilysToolKits-v0.0.4-blue.svg)
 ![License](https://img.shields.io/badge/license-GPL%20v3-green.svg)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
@@ -136,9 +136,11 @@ lilystoolkits-h5/
 │   ├── converter.js       # 进制转换器逻辑
 │   ├── hexascii.js        # Hex/ASCII转换器逻辑
 │   ├── optical.js         # 光模块计算器逻辑
-│   └── echarts.js         # 图表库（如果使用）
-├── assets/                 # 静态资源（如果需要）
+│   └── echarts.js         # 图表库
 ├── README.md              # 项目说明文档
+├── revision.md            # 版本更新记录
+├── CONTRIBUTING.md        # 贡献指南
+├── CODE_OF_CONDUCT.md     # 行为准则
 ├── LICENSE                # 许可证文件
 ├── .gitignore             # Git忽略文件
 └── package.json           # 项目配置文件
@@ -182,6 +184,13 @@ lilystoolkits-h5/
 
 ## 📊 版本历史
 
+### v0.0.4 (2026-01-24)
+- 🏗️ 更新项目结构文档，移除不存在的 assets 目录
+- 📦 更新 package.json 信息（版本、邮箱、仓库链接）
+- 📋 添加 CONTRIBUTING.md 贡献指南
+- 📜 添加 CODE_OF_CONDUCT.md 行为准则
+- 🔧 完善 GitHub 最佳实践文件结构
+
 ### v0.0.3 (2026-01-24)
 - 📧 更新联系邮箱为 lilyy.tong@qq.com
 - 🗑️ 移除计划中的功能列表
@@ -220,8 +229,8 @@ GNU General Public License for more details.
 
 ## 📞 联系方式
 
-- **项目主页**: [https://github.com/your-username/lilystoolkits-h5](https://github.com/your-username/lilystoolkits-h5)
-- **问题反馈**: [GitHub Issues](https://github.com/your-username/lilystoolkits-h5/issues)
+- **项目主页**: [https://github.com/jinw-yu/lilystoolkits-h5](https://github.com/jinw-yu/lilystoolkits-h5)
+- **问题反馈**: [GitHub Issues](https://github.com/jinw-yu/lilystoolkits-h5/issues)
 - **邮箱**: lilyy.tong@qq.com
 
 ## 🙏 致谢
@@ -234,6 +243,6 @@ GNU General Public License for more details.
 
 **如果这个项目对您有帮助，请给我们一个 ⭐**
 
-Made with ❤️ by [Lily's Tool Kits](https://github.com/your-username)
+Made with ❤️ by [Lily's Tool Kits](https://github.com/jinw-yu)
 
 </div>

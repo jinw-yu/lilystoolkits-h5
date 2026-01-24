@@ -1,0 +1,68 @@
+{
+  "name": "lilystoolkits-h5",
+  "version": "0.0.3",
+  "description": "一个轻量级的离线工具集合，提供常用的开发工具和转换器",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "dev": "python -m http.server 8000",
+    "serve": "npx http-server",
+    "build": "echo 'No build process needed for static HTML project'",
+    "test": "echo 'No tests specified yet'",
+    "lint": "echo 'No linting configured yet'"
+  },
+  "keywords": [
+    "tools",
+    "converter",
+    "hex",
+    "ascii",
+    "optical",
+    "calculator",
+    "offline",
+    "html5",
+    "javascript",
+    "css3",
+    "chinese"
+  ],
+  "author": {
+    "name": "Lily's Tool Kits",
+    "email": "lilyy.tong@qq.com",
+    "url": "https://github.com/jinw-yu"
+  },
+  "license": "GPL-3.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jinw-yu/lilystoolkits-h5.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jinw-yu/lilystoolkits-h5/issues"
+  },
+  "homepage": "https://github.com/jinw-yu/lilystoolkits-h5#readme",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  },
+  "browserslist": [
+    "Chrome >= 60",
+    "Firefox >= 55",
+    "Safari >= 12",
+    "Edge >= 79"
+  ],
+  "files": [
+    "*.html",
+    "css/",
+    "js/",
+    "assets/",
+    "README.md",
+    "LICENSE"
+  ],
+  "config": {
+    "port": 8000
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/jinw-yu"
+  }
+}
