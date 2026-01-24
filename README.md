@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![LilysToolKits Logo](https://img.shields.io/badge/LilysToolKits-v0.0.2-blue.svg)
+![LilysToolKits Logo](https://img.shields.io/badge/LilysToolKits-v0.0.3-blue.svg)
 ![License](https://img.shields.io/badge/license-GPL%20v3-green.svg)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
@@ -182,6 +182,11 @@ lilystoolkits-h5/
 
 ## 📊 版本历史
 
+### v0.0.3 (2026-01-24)
+- 📧 更新联系邮箱为 lilyy.tong@qq.com
+- 🗑️ 移除计划中的功能列表
+- 📱 更新版本号到 v0.0.3
+
 ### v0.0.2 (2026-01-24)
 - 📝 添加完整的 README.md 文档
 - 📋 添加 revision.md 版本更新记录
@@ -194,16 +199,6 @@ lilystoolkits-h5/
 - 💡 光模块计算器功能
 - 📱 响应式设计支持
 - 🎨 现代化UI界面
-
-### 计划中功能
-- [ ] 单位转换器（长度、重量、温度等）
-- [ ] 颜色选择器和转换器
-- [ ] Base64 编码解码器
-- [ ] URL 编码解码器
-- [ ] 时间戳转换器
-- [ ] 正则表达式测试器
-- [ ] JSON 格式化工具
-- [ ] 哈希生成器（MD5、SHA等）
 
 ## 📄 许可证
 
@@ -227,7 +222,7 @@ GNU General Public License for more details.
 
 - **项目主页**: [https://github.com/your-username/lilystoolkits-h5](https://github.com/your-username/lilystoolkits-h5)
 - **问题反馈**: [GitHub Issues](https://github.com/your-username/lilystoolkits-h5/issues)
-- **邮箱**: your-email@example.com
+- **邮箱**: lilyy.tong@qq.com
 
 ## 🙏 致谢
 
