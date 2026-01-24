@@ -1,6 +1,6 @@
 {
   "name": "lilystoolkits-h5",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "一个轻量级的离线工具集合，提供常用的开发工具和转换器",
   "main": "index.html",
   "scripts": {

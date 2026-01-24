@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![LilysToolKits Logo](https://img.shields.io/badge/LilysToolKits-v0.0.5-blue.svg)
+![LilysToolKits Logo](https://img.shields.io/badge/LilysToolKits-v0.0.6-blue.svg)
 ![License](https://img.shields.io/badge/license-GPL%20v3-green.svg)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
@@ -122,21 +122,23 @@ LilysToolKits 是一个纯前端的离线工具集合，专为开发者和日常
 
 ```
 lilystoolkits-h5/
-├── index.html              # 主页面
-├── converter.html          # 进制转换器
-├── hexascii.html          # Hex/ASCII转换器
-├── optical.html           # 光模块计算器
-├── css/                    # 样式文件
-│   ├── style.css          # 通用样式
-│   ├── converter.css      # 进制转换器样式
-│   ├── hexascii.css       # Hex/ASCII转换器样式
-│   └── optical.css        # 光模块计算器样式
-├── js/                     # JavaScript文件
-│   ├── main.js            # 主页面逻辑
-│   ├── converter.js       # 进制转换器逻辑
-│   ├── hexascii.js        # Hex/ASCII转换器逻辑
-│   ├── optical.js         # 光模块计算器逻辑
-│   └── echarts.js         # 图表库
+├── home/                  # 主页
+│   ├── index.html         # 主页面
+│   ├── style.css         # 通用样式
+│   └── main.js          # 主页面逻辑
+├── converter/            # 进制转换器
+│   ├── converter.html    # 进制转换器页面
+│   ├── converter.css    # 进制转换器样式
+│   └── converter.js     # 进制转换器逻辑
+├── hexascii/            # Hex/ASCII转换器
+│   ├── hexascii.html    # Hex/ASCII转换器页面
+│   ├── hexascii.css     # Hex/ASCII转换器样式
+│   └── hexascii.js      # Hex/ASCII转换器逻辑
+├── optical/             # 光模块计算器
+│   ├── optical.html     # 光模块计算器页面
+│   ├── optical.css     # 光模块计算器样式
+│   ├── optical.js      # 光模块计算器逻辑
+│   └── echarts.js      # 图表库
 ├── README.md              # 项目说明文档
 ├── revision.md            # 版本更新记录
 ├── CONTRIBUTING.md        # 贡献指南
@@ -183,6 +185,15 @@ lilystoolkits-h5/
 - 相关的错误截图（如果适用）
 
 ## 📊 版本历史
+
+### v0.0.6 (2026-01-24)
+- 📁 重新组织项目结构，每个工具独立文件夹
+- 🔗 更新所有页面间的导航链接
+- 📦 方便整体或单独分发小工具
+- 🏠 主页移至 home/ 文件夹
+- 🧮 converter/ 文件夹包含进制转换器
+- 🔤 hexascii/ 文件夹包含 Hex/ASCII 转换器
+- 💡 optical/ 文件夹包含光模块计算器
 
 ### v0.0.5 (2026-01-24)
 - 🔢 统一版本号到 0.0.5

@@ -1,3 +1,18 @@
+### v0.0.6 (2026-01-24)
+- 📁 重新组织项目结构，每个工具独立文件夹
+- 🔗 更新所有页面间的导航链接和资源引用
+- 📦 方便整体或单独分发小工具
+- 🏠 主页移至 home/ 文件夹
+  - index.html, style.css, main.js 独立管理
+- 🧮 converter/ 文件夹包含进制转换器完整功能
+  - converter.html, converter.css, converter.js
+- 🔤 hexascii/ 文件夹包含 Hex/ASCII 转换器完整功能
+  - hexascii.html, hexascii.css, hexascii.js
+- 💡 optical/ 文件夹包含光模块计算器完整功能
+  - optical.html, optical.css, optical.js, echarts.js
+- 🔄 修复所有相对路径引用
+- ➕ 为 optical.html 添加返回首页链接
+
 ### v0.0.5 (2026-01-24)
 - 🔢 统一版本号到 0.0.5
 - 📦 更新 package.json 版本号从 0.0.3 到 0.0.5

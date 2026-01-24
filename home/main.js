@@ -4,19 +4,19 @@ const toolsData = [
         id: 'converter',
         name: '进制转换器',
         description: '支持各种进制之间的转换',
-        path: 'converter.html'
+        path: '../converter/converter.html'
     },
     {
         id: 'hexascii',
         name: 'Hex/ASCII转换器',
         description: '十六进制与ASCII码之间的转换',
-        path: 'hexascii.html'
+        path: '../hexascii/hexascii.html'
     },
     {
         id: 'optical',
         name: '光模块计算器',
         description: '光模块相关计算工具',
-        path: 'optical.html'
+        path: '../optical/optical.html'
     }
 ];
 
