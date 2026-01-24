@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![LilysToolKits Logo](https://img.shields.io/badge/LilysToolKits-v0.0.4-blue.svg)
+![LilysToolKits Logo](https://img.shields.io/badge/LilysToolKits-v0.0.5-blue.svg)
 ![License](https://img.shields.io/badge/license-GPL%20v3-green.svg)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
@@ -183,6 +183,12 @@ lilystoolkits-h5/
 - 相关的错误截图（如果适用）
 
 ## 📊 版本历史
+
+### v0.0.5 (2026-01-24)
+- 🔢 统一版本号到 0.0.5
+- 📦 更新 package.json 版本号
+- 🏠 更新 index.html 中的版本显示
+- 📱 更新 README.md 版本徽章
 
 ### v0.0.4 (2026-01-24)
 - 🏗️ 更新项目结构文档，移除不存在的 assets 目录
